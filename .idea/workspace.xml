@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e2fdd5a-eccf-47ad-b4cd-3f9ba35149ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionExample/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionExample/PhoneExceptionTester.java" afterDir="false" />
+    <list default="true" id="5e2fdd5a-eccf-47ad-b4cd-3f9ba35149ad" name="Changes" comment="lesson 4 implementation">
+      <change afterPath="$PROJECT_DIR$/src/datesAndCalendars/DatesAndCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scannerExample/UserInputTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptionExample/PhoneExceptionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionExample/PhoneExceptionTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DatesAndCalendar">
+    <configuration name="DatesAndCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datesAndCalendars.DatesAndCalendar" />
+      <module name="lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datesAndCalendars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhoneExceptionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionExample.PhoneExceptionTester" />
       <module name="lesson4" />
@@ -57,8 +66,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserInputTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scannerExample.UserInputTester" />
+      <module name="lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scannerExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatesAndCalendar" />
+        <item itemvalue="Application.UserInputTester" />
         <item itemvalue="Application.PhoneExceptionTester" />
       </list>
     </recent_temporary>
@@ -72,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661075475201</updated>
     </task>
+    <task id="LOCAL-00001" summary="lesson 4 implementation">
+      <created>1661076180329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661076180329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 4 implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4 implementation" />
   </component>
 </project>
